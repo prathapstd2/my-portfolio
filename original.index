@@ -6,30 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Portfolio</title>
-  <!-- AOS Stylesheet -->
-  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-
-  <!-- AOS Script -->
-  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="mediaqueries.css" />
 </head>
 
 <body>
   <nav id="desktop-nav">
-    <div class="logo" data-aos="fade-right">My Portfolio</div>
+    <div class="logo">My Portfolio</div>
     <div>
       <ul class="nav-links">
-        <li><a href="#about" onclick="toggleMenu()" data-aos="fade-up" data-aos-delay="100">About</a></li>
-        <li><a href="#experience" onclick="toggleMenu()" data-aos="fade-up" data-aos-delay="200">Experience</a></li>
-        <li><a href="#projects" onclick="toggleMenu()" data-aos="fade-up" data-aos-delay="300">Projects</a></li>
-        <li><a href="#contact" onclick="toggleMenu()" data-aos="fade-up" data-aos-delay="400">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
-  <nav id="hamburger-nav" data-aos="fade-down">
-    <div class="logo" >My Portfolio</div>
+  <nav id="hamburger-nav">
+    <div class="logo">My Portfolio</div>
     <div class="hamburger-menu">
       <div class="hamburger-icon" onclick="toggleMenu()">
         <span></span>
@@ -45,28 +39,27 @@
     </div>
   </nav>
   <section id="profile">
-    <div class="section__pic-container" data-aos="zoom-in"></div>
+    <div class="section__pic-container"></div>
     <div class="section__text">
-      <p class="section__text__p1" data-aos="fade-down">Hello, I'm</p>
-      <h1 class="title" data-aos="fade-right">Prathap</h1>
-      <p class="section__text__p2" data-aos="fade-left">Full Stack Developer</p>
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Prathap</h1>
+      <p class="section__text__p2">Full Stack Developer</p>
       <div class="btn-container">
-        <button class="btn btn-color-2" data-aos="fade-right" onclick="window.open('images/PRATHAP M FULL STACK DEVELOPER.pdf')">
+        <button class="btn btn-color-2" onclick="window.open('images/PRATHAP M FULL STACK DEVELOPER.pdf')">
           Download CV
         </button>
-        <button class="btn btn-color-1" data-aos="fade-left" onclick="location.href='./#contact'">
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
           Contact Info
         </button>
       </div>
-      <div id="socials-container" data-aos="fade-up">
+      <div id="socials-container">
         <img src="linkedin.png" alt="My LinkedIn profile" class="icon"
           onclick="location.href='https://www.linkedin.com/in/m--prathap/'" />
-        <img src="github.png" alt="My Github profile" class="icon"
-          onclick="location.href='https://github.com/prathapstd2'" />
+        <img src="github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/prathapstd2'" />
       </div>
     </div>
   </section>
-  <section id="about" data-aos="fade-up">
+  <section id="about">
     <p class="section__text__p1">Get To Know More</p>
     <h1 class="title" id="litemarginbottom">About Me</h1>
     <div class="section-container">
@@ -94,7 +87,7 @@
     </div>
     <img src="arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
   </section>
-  <section id="experience" data-aos="fade-up">
+  <section id="experience">
     <p class="section__text__p1">Explore My</p>
     <h1 class="title">Experience</h1>
     <div class="experience-details-container">
@@ -274,7 +267,7 @@
     </div>
     <img src="arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
   </section>
-  <section id="projects" data-aos="fade-up">
+  <section id="projects">
     <p class="section__text__p1">Browse My Recent</p>
     <h1 class="title">Projects</h1>
     <div class="experience-details-container">
@@ -285,8 +278,7 @@
           </div>
           <h2 class="experience-sub-title project-title">COMPREHENSIVE HOSTEL MANAGEMENT</h2>
           <div class="btn-container">
-            <button class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/prathapstd2/hostel-management.git'">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/prathapstd2/hostel-management.git'">
               Github
             </button>
             <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
@@ -300,8 +292,7 @@
           </div>
           <h2 class="experience-sub-title project-title">Complaint Portal</h2>
           <div class="btn-container">
-            <button class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/prathapstd2/Complaint-system-management.git'">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/prathapstd2/Complaint-system-management.git'">
               Github
             </button>
             <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
@@ -315,8 +306,7 @@
           </div>
           <h2 class="experience-sub-title project-title">REALESTATE WEBSITE</h2>
           <div class="btn-container">
-            <button class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/prathapstd2/real-state.git'">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/prathapstd2/real-state.git'">
               Github
             </button>
             <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
@@ -330,8 +320,7 @@
           </div>
           <h2 class="experience-sub-title project-title">My Portfolio</h2>
           <div class="btn-container">
-            <button class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/prathapstd2/my-portfolio.git'">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/prathapstd2/my-portfolio.git'">
               Github
             </button>
             <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
@@ -345,8 +334,7 @@
           </div>
           <h2 class="experience-sub-title project-title">Password Manager <br>(College Student Project)</br></h2>
           <div class="btn-container">
-            <button class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/prathapstd2/Weblocker.git'">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/prathapstd2/Weblocker.git'">
               Github
             </button>
             <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
@@ -360,8 +348,7 @@
           </div>
           <h2 class="experience-sub-title project-title">Concert Advertisement<br>(College Student Project)</br></h2>
           <div class="btn-container">
-            <button class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/prathapstd2/concert.git'">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/prathapstd2/concert.git'">
               Github
             </button>
             <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
@@ -375,8 +362,7 @@
           </div>
           <h2 class="experience-sub-title project-title">Billing-Inventory<br>(College Student Project)</br></h2>
           <div class="btn-container">
-            <button class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/prathapstd2/Billing-Inventory.git'">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/prathapstd2/Billing-Inventory.git'">
               Github
             </button>
             <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
@@ -400,10 +386,10 @@
         <img src="linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
         <p><a href="https://www.linkedin.com/in/m--prathap/">LinkedIn</a></p>
       </div>
-
+      
     </div>
   </section>
-  <footer data-aos="fade-up">
+  <footer>
     <nav>
       <div class="nav-links-container">
         <ul class="nav-links">
@@ -416,12 +402,6 @@
     </nav>
     <p>Copyright &#169; 2025 Prathap. All Rights Reserved.</p>
   </footer>
-  <script>
-    AOS.init({
-      duration: 1200,  // Animation duration (in ms)
-      once: true,  // Animation will only happen once
-    });
-  </script>
   <script src="script.js"></script>
 </body>
 
